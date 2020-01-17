@@ -1,0 +1,65 @@
+/*!
+ * Toggler (https://github.com/deivydasv/toggler)
+ * Version: 1.1.3
+ * Last update on: 2017-12-18 14:47:10
+ * Author: Deivydas Vaseris
+ */
+
+ .toggler {
+   text-decoration: none;
+   
+ }
+.js-toggler {
+  display: none;
+}
+
+#verzending {
+  /* margin-top: -2em; */
+}
+#verzending, #algemene, #bedrijfsinfo{
+  background-color: rgb(251, 251, 251);
+  border-radius: 8px;
+  text-align: left;
+  /* display: block; */
+  /* padding: 2px; */
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  /* margin-top: -2em; */
+  
+}
+.js-toggler.is-transitioning {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: height .5s ease;
+  transition: height .5s ease;
+}
+
+.js-toggler.is-transitioning.is-fade {
+  -webkit-transition: opacity .5s linear;
+  transition: opacity .5s linear;
+}
+
+.js-toggler.is-transitioning.is-slidefade {
+  -webkit-transition: height .5s ease, opacity .5s linear;
+  transition: height .5s ease, opacity .5s linear;
+}
+
+.click-toggler.is-visible {
+  font-style: italic;
+}
+.js-toggler.is-visible{
+  display: block;
+}
+
+.contactform {
+  margin-top: 5em;
+  text-align: left;
+}
+
+h3{
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=toggler.css.map */
